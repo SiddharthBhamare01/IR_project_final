@@ -1,0 +1,97 @@
+# ------------------------------
+# Python Virtual Environment
+# ------------------------------
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# ------------------------------
+# Python Cache / Build Artifacts
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+build/
+dist/
+.eggs/
+.installed.cfg
+
+# ------------------------------
+# Logs and Temp Files
+# ------------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Scrapy / Crawl Outputs
+# ------------------------------
+.crawls/
+*.db
+*.sqlite
+crawl_stats.json
+*.csv
+*.jsonl
+*.jl
+
+# ------------------------------
+# Flask / Web Cache
+# ------------------------------
+instance/
+*.db-journal
+*.sqlite3
+*.pid
+*.sock
+
+# ------------------------------
+# Data Files and Generated Corpora
+# ------------------------------
+natural.txt
+index.json
+output/
+data/
+dataset/
+*.zip
+*.tar.gz
+
+# ------------------------------
+# Jupyter / Notebooks
+# ------------------------------
+.ipynb_checkpoints/
+*.ipynb_meta.json
+
+# ------------------------------
+# IDE / Editor Files
+# ------------------------------
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------
+# OS-Specific
+# ------------------------------
+.DS_Store
+desktop.ini
+ehthumbs.db
+
+# ------------------------------
+# Reports / PDFs (if generated)
+# ------------------------------
+Project\ -\ Individual.pdf
+IR_Project_report_*.pdf

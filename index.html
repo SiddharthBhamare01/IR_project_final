@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document Analysis Tool</title>
+</head>
+<body>
+    <h1>Document Analysis Tool</h1>
+
+    <!-- Form for Crawling -->
+    <form action="/crawl" method="post">
+        <label>Seed URL:</label>
+        <input type="text" name="seed_url"><br>
+        <label>Max Pages:</label>
+        <input type="number" name="max_pages"><br>
+        <label>Max Depth:</label>
+        <input type="number" name="max_depth"><br>
+        <input type="submit" value="Start Crawling">
+    </form>
+
+    <!-- Form for Building Index -->
+    <form action="/build_index" method="post">
+        <input type="submit" value="Build Index">
+    </form>
+
+    <!-- Form for Query -->
+    <form action="/query" method="post">
+        <label>Query:</label>
+        <input type="text" name="query"><br>
+        <label>Top K Results:</label>
+        <input type="number" name="top_k"><br>
+        <input type="submit" value="Query">
+    </form>
+</body>
+</html>
