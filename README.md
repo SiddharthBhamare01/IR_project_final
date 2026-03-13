@@ -238,7 +238,4 @@ See `requirements.txt` for complete list.
 
 ## Author
 
-[Your Name]
-[Course]: CS-429 Information Retrieval
-[Semester]: Fall 2024
-[University]: IIT Chicago
+Siddharth Bhamare
