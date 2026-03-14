@@ -234,6 +234,8 @@ See `requirements.txt` for complete list.
 - **NumPy**: Numerical computations
 - **FAISS**: (Optional) Fast similarity search
 
+Author: Siddharth Bhamare
+
 ---
 
 ## Author
